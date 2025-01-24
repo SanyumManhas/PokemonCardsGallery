@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  background-image: url('./pics/set-of-pokemon-icons-vector.jpg');
+  background-size: 20%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-bar{
+  height:13vh;
+  width:100%;
+  background: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  font-weight:bold;
+  color:red;
+}
+
+.search-holder{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:7vh;
+  width:30%;
+}
+
+.inpt{
+  height:65%;
+  width:70%;
+  border-radius: 5px;
+  font-size:xx-small;
+  
+}
+.button{
+  height:4vh;
+  width: 20%;
+  border-radius: 5px;
+  font-size:xx-small;
+}
+
+
+.body{
+  width:70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255,0.5);
+
+}
+.white-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:100%;
+}
+
+.cards-container{
+  padding-top:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:90%;
+}
